@@ -37,7 +37,7 @@ export default class CounterClass extends Component {
       
         return (
             <div>
-                <h2>Count Class</h2>
+                <h1>Count Class</h1>
                 <h1>Count : {count}</h1>
             
                 <button onClick={this.incrementNum}> + </button> <button  onClick={this.decrementNum}> - </button  > <button onClick={this.resetNum}>Reset</button>
